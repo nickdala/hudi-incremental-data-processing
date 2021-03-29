@@ -183,4 +183,4 @@ scala> spark.sql("select * from scores_snapshot").show()
 +-------------------+--------------------+------------------+----------------------+--------------------+-------+-----+-------------------+
 ```
 
-***TODO: How do we Incremental.scala to stream new changes***
+***TODO: How do we modify Incremental.scala to stream new changes***
