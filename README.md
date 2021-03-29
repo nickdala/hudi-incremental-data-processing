@@ -79,7 +79,7 @@ Let's first run the ingest job twice.
     scala> 
     ```
    
- 1. Query the `scores_snapshot` table
+ 1. Query the `scores_cow` table
 
     ```bash
     scala> val basePath = "/Users/nickdala/git/hudi-incremental-data-processing/hudi/scores_cow"
