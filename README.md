@@ -108,7 +108,6 @@ Let's first run the ingest job twice.
 1. Verify we ingested `data/2.json` using the interactive Spark shell we previously launched.
 
     ```bash
-    scala> val basePath = "/Users/nickdala/git/hudi-incremental-data-processing/hudi/scores_cow"
     scala> val scoresDF = spark.read.format("hudi").load(basePath + "/*")
     scala> scoresDF.createOrReplaceTempView("scores_snapshot")
     ```
