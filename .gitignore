@@ -1,2 +1,28 @@
+# general
 *.class
+
+# bloop and metals
+.bloop
+.bsp
+.metals
+
+# sbt
+bin/
+target/
+build/
+
+# Hudi
+hudi/
+
+# intellij idea
 *.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# vs code
+.vscode
+
+# MAC
+.DS_Store
